@@ -3,4 +3,6 @@ go:
   - 1.1
   - tip
 
-install: go build ./...
+install:
+  - export GOPATH=$TRAVIS_BUILD_DIR
+  - go build ./...
