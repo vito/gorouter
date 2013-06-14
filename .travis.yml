@@ -4,5 +4,6 @@ go:
   - tip
 
 install:
+  - gem install nats
   - export GOPATH=$TRAVIS_BUILD_DIR
   - go build ./...

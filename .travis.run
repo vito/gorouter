@@ -1,2 +1,0 @@
-gem install nats
-bin/test
